@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoList.DataAccess", "TodoList.DataAccess\TodoList.DataAccess.csproj", "{6A082BE9-6DBD-4428-83B6-F988AB860CA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoList.DataAccess", "TodoList.DataAccess\TodoList.DataAccess.csproj", "{6A082BE9-6DBD-4428-83B6-F988AB860CA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoList.Business", "TodoList.Business\TodoList.Business.csproj", "{F02F2825-5832-4B7E-91FF-43FEA65A7F04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoList.Business", "TodoList.Business\TodoList.Business.csproj", "{F02F2825-5832-4B7E-91FF-43FEA65A7F04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoList.Entities", "TodoList.Entities\TodoList.Entities.csproj", "{8CB83D6B-E89F-4C12-9526-F9E37D9595A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoList.Entities", "TodoList.Entities\TodoList.Entities.csproj", "{8CB83D6B-E89F-4C12-9526-F9E37D9595A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoList.Core", "TodoList.Core\TodoList.Core.csproj", "{70BCC042-4933-4611-96C8-5804F6D01772}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoList.Core", "TodoList.Core\TodoList.Core.csproj", "{70BCC042-4933-4611-96C8-5804F6D01772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoList.WebApi", "TodoList.WebApi\TodoList.WebApi.csproj", "{85411237-99CA-4DE6-945D-88AF759D873F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{70BCC042-4933-4611-96C8-5804F6D01772}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70BCC042-4933-4611-96C8-5804F6D01772}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70BCC042-4933-4611-96C8-5804F6D01772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85411237-99CA-4DE6-945D-88AF759D873F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85411237-99CA-4DE6-945D-88AF759D873F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85411237-99CA-4DE6-945D-88AF759D873F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85411237-99CA-4DE6-945D-88AF759D873F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
