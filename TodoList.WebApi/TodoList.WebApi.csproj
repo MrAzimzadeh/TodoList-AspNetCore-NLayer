@@ -18,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\TodoList.Business\TodoList.Business.csproj" />
     <ProjectReference Include="..\TodoList.Core\TodoList.Core.csproj" />
+    <ProjectReference Include="..\TodoList.DataAccess\TodoList.DataAccess.csproj" />
     <ProjectReference Include="..\TodoList.Entities\TodoList.Entities.csproj" />
   </ItemGroup>
 
