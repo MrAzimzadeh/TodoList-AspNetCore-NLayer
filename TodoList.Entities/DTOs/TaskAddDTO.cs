@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace TodoList.Entities.DTOs
 {
-    public class TaskAdd
+    public class TaskAddDTo
     {
         public string Title { get; set; }
         public string DataAccess { get; set; }

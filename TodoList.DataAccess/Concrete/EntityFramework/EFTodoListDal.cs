@@ -11,5 +11,5 @@ namespace TodoList.DataAccess.Concrete.EntityFramework
     public class EFTodoListDal : EfRepositoryBase<TaskList, AppDbContext>, ITodoListDal
     {
         
-    } 
+    }
 }
